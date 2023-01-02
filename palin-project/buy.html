@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Palindrome Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c573a3cda6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href='static/buy.css'>
+
+
+</head>
+<body>
+
+
+<div class="estrutura">
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-items-1">
+            <ul>
+                <li><a href="palin_store.html">shop</a></li>
+                <li><a href="palin_store.html">collections</a></li>
+                <li><a href="palin_store.html">lookbook</a></li>
+                <li><a href="palin_store.html">fale conosco</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-items-2">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- TOP-CONTENT -->
+
+    <section class="top-content" style="margin-top: 4em;">
+        <div class="menu-item">
+            <nav class="breadcrumb">
+                <a href="/" title='Voltar para "Página Inicial"'>início</a><span class="transparent-c" style="margin: 0 5px 0 5px"> › </span>
+                <a href="palin_store.html" title='Voltar para "Página de Compra"'>store</a><span
+                    class="transparent-c" style="margin: 0 5px 0 5px"> › </span>
+                <a>T-shirt mockup</a>
+            </nav>
+        </div>
+    </section>
+
+
+    <!-- MAIN-CONTENT -->
+        <!--GALLERY-SIDE -->
+    <section class="main-content" style="margin-bottom: 5em;">
+        <article class="img-side">
+            <div class="pos">
+                <div class="main-card border-l" style="margin-bottom: 1em;">
+                    <div class="main-img" style="background-image: none; padding-top: 100%;">
+                        <img src="static/img/mockup.webp" class="card_img">
+
+                    </div>
+                </div>
+
+                <div class="flicker">
+                    <div class="thumbs">
+
+                        
+                        <div class="thumb_img">
+                            <img src="static/img/mockup_2.webp" class="thumb__img">
+                        </div>
+
+				
+
+                        <div class="thumb_img">
+                            <img src="static/img/mockup.webp" class="thumb__img">
+                        </div>
+
+                        <div class="thumb_img">
+                            <img src="static/img/mockup_2.webp" class="thumb__img">
+                        </div>
+
+                        <div class="thumb_img">
+                            <img src="static/img/mockup.webp" class="thumb__img">
+                        </div>
+
+                        <div class="thumb_img">
+                            <img src="static/img/mockup_2.webp" class="thumb__img">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- OPTIONS-SIDE -->
+        <article class="options-side">
+            <h1 class="t-shirt_name">t-shirt mockup</h1>
+            <div class="item-price">
+                <span class="transparent-c">R$</span>
+                <span class="transparent-c">10,99</span>
+            </div>
+
+            <div class="size-t"><span class="transparent-c">size</span></div>
+            <div class="size">
+
+                <div class="size-options"><a class="size-btn">P</a></div>
+
+                <div class="size-options"><a class="size-btn">M</a></div>
+
+                <div class="size-options"><a class="size-btn">G</a></div>
+
+                <div class="size-options"><a class="size-btn">GG</a></div>
+            </div>
+
+            <div class="qtde-options">
+                <button class="qtde-btn" onclick="product.decrease()">-</button>
+                <div class="qtde" id="output_q">1</div>
+                <button class="qtde-btn" onclick="product.add()">+</button>
+            </div>
+
+            <div class="buy-btn">
+                <a href="#">Adicionar ao carrinho . <span class="transparent-c">R$</span><span id="output_p" class="transparent-c">10.99</span></a>
+            </div>
+
+            <div class="b-border"></div>
+
+            <div class="description border_top border_bottom">
+                <p class="desc-title">descrição</p>
+                <div class="desc-margin">
+                    <p class="desc-text">
+                        <strong class="">Tecido</strong><br>
+                        <span class="transparent-c">Camiseta 100% Algodão</span><br>
+                        <span class="transparent-c">Sem Estampa</span>
+                    </p>
+                    <p class="desc-color transparent-c">
+                        <strong class="transparent-c">Cor</strong><br>
+                        <span class="transparent-c">Cinza</span>
+                    </p>
+                    <p class="transparent-c">
+                        <strong class="transparent-c">Detalhes</strong><br>
+                        <span class="transparent-c">Lorem ipsum dolor sit amet Nulla at nulla</span><br>
+                        <span class="transparent-c">Lorem ipsum dolor sit amet Nulla at nulla</span>
+                    </p>
+
+                </div>
+            </div>
+
+
+        </article>
+    </section>
+
+
+    <!-- LAST-CONTENT -->
+
+    <section class="l_content" style="margin-bottom: 5em;">
+        <article class="l_article">
+            <div class="card">
+                <a href="#" class="img-overlay">
+
+                    <div class="img-card" style="background-image: url(static/img/mockup.webp); padding-top: 100%;"></div>
+                    <div class="img-card-2" style="background-image: url(static/img/mockup_2.webp); padding-top: 100%;"></div>
+                </a>
+
+                <div class="card-text">
+                    <a href="#">
+                        <p class="">t-shirt mockup</p>
+                        <div class="price"><span class="transparent-c">R$ 10,00</span></div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="l_article">
+            <div class="card">
+                <a href="#" class="img-overlay">
+
+                    <div class="img-card" style="background-image: url(static/img/mockup.webp); padding-top: 100%;"></div>
+                    <div class="img-card-2" style="background-image: url(static/img/mockup_2.webp); padding-top: 100%;"></div>
+                </a>
+
+                <div class="card-text">
+                    <a href="#">
+                        <p class="">t-shirt mockup</p>
+                        <div class="price"><span class="transparent-c">R$ 10,00</span></div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="l_article">
+            <div class="card">
+                <a href="#" class="img-overlay">
+
+                    <div class="img-card" style="background-image: url(static/img/mockup.webp); padding-top: 100%;"></div>
+                    <div class="img-card-2" style="background-image: url(static/img/mockup_2.webp); padding-top: 100%;"></div>
+                </a>
+
+                <div class="card-text">
+                    <a href="#">
+                        <p class="">t-shirt mockup</p>
+                        <div class="price"><span class="transparent-c">R$ 10,00</span></div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <article class="l_article">
+            <div class="card">
+                <a href="#" class="img-overlay">
+
+                    <div class="img-card" style="background-image: url(static/img/mockup.webp); padding-top: 100%;"></div>
+                    <div class="img-card-2" style="background-image: url(static/img/mockup_2.webp); padding-top: 100%;"></div>
+                </a>
+
+                <div class="card-text">
+                    <a href="#">
+                        <p class="">t-shirt mockup</p>
+                        <div class="price"><span class="transparent-c">R$ 10,00</span></div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" style="margin-bottom: 20em;">
+        <div class="grid-footer-1">
+            <p class="f_text">Menu Rodapé</p>
+            <hr class="hr">
+            <ul class="footer-nav" style="">
+
+                <li><a href="#" class="nav-link">Dúvidas</a></li>
+                <li><a href="#" class="nav-link">Política De Privacidade</a></li>
+                <li><a href="#" class="nav-link">Fale Conosco</a></li>
+                <li><a href="#" class="nav-link">Sobre Nós</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-footer-2">
+            <p class="f_text-2">Informativo</p>
+            <hr class="hr">
+            <div class="">
+                <p class="">Fique por dentro de tudo o que acontece na Palindrome. Cadastre seu e-mail para
+                    receber todas as novidades e promoções exclusivas para assinantes.</p>
+            </div>
+            <form class="forms" style="margin-top: 1em">
+                <label for="email" class="label">Email</label>
+                <div class="form-flex">
+                    <input class="input-form" type="email" placeholder="seu_email@exemplo.com" name="contact_email">
+                    <span class="input-button">
+                            <button type="submit" class="button" name="sub-button">Inscrever</button>
+                        </span>
+                </div>
+            </form>
+        </div>
+
+        <div class="copyright">
+            <p>© palin store 2022 todos os direitos reservados</p>
+        </div>
+
+        <div class="socials-grid">
+            <ul class="footer-socials">
+                <li><a href="https://github.com/GiorgioMorello" class="socials" target="_blank" class="socials"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/giorgio-morello-b72342231/" class="socials" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#" class="socials"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" class="socials"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" class="socials"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><i class="fa-light fa-bars-sort"></i></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</div>
+
+
+<script>
+
+
+
+
+    function roundOf(num,pos){
+        let power = 10**pos
+        return Math.round(num*power)/power
+    }
+
+
+
+    var result_q = document.querySelector("#output_q");
+    var result_p = document.querySelector("#output_p");
+
+
+    var product = new Object();
+    product.qtde = 100;
+    product.price = 10.99;
+
+    product.add = function() {
+        if (this.qtde < 1) {
+            return
+        }
+        var msg_1 = 0;
+        var msg_2 = '';
+        this.price += 10.99;
+        this.qtde --;
+        msg_1 += 101 - this.qtde;
+        msg_2 += roundOf(this.price, 2);
+
+        result_q.innerHTML = msg_1;
+        result_p.innerHTML = msg_2;
+    }
+
+
+
+    product.decrease = function() {
+        if (this.price == 10.99 || this.qtde == 100) {
+            return
+        }
+        msg_1 = 0;
+        msg_2 = '';
+        this.price -= 10.99;
+        this.qtde ++;
+
+        msg_1 += 101 - this.qtde;
+        msg_2 += roundOf(this.price, 2);
+
+        result_q.innerHTML = msg_1;
+        result_p.innerHTML = msg_2;
+        console.log(this.qtde)
+    }
+
+</script>
+
+</body>
+</html>
