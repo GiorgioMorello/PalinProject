@@ -1,4 +1,4 @@
 # PalinProject
  
-### Projeto Front end: https://palin-store.herokuapp.com/
+### Projeto Front end
 #### Inspiração: https://palindromestore.com.br/
